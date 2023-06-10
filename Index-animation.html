@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset-animation.css">
+    <link rel="stylesheet" href="Style-animation.css">
+    <script src="Main-animation.js" defer></script>
+    <title>Animation</title>
+</head>
+<body>
+    
+<div class="container">
+
+    <nav>
+
+        <div class="logo">folio<b>.</b></div>
+
+        <ul class="nav__item">
+            <li><a href="#!">Home</a></li>
+            <li><a href="#!">About</a></li>
+            <li><a href="#!">Skills</a></li>
+            <li><a href="#!">blog</a></li>
+        </ul>
+
+        <div class="links">
+
+            <a href="#">
+                <img class="img__icon" src="../Animated web/icons-animated/icons8-vk-100.png">
+            </a>
+
+            <a href="#">
+                <img class="img__icon" src="../Animated web/icons-animated/icons8-whatsapp-100.png">
+            </a>
+
+            <a href="#">
+                <img class="img__icon" src="../Animated web/icons-animated/icons8-телеграмма-app-100.png">
+            </a>
+
+        </div>
+
+    </nav>
+
+    <div class="wrapper">
+
+        <div class="cols cols0">
+
+            <span class="topline">Hello</span>
+
+            <h1>I'm <span class="multiText"></span></h1>
+
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+            
+            <div class="btns">
+
+                <button>download CV</button>
+
+                <button>Hire me</button>
+
+            </div>
+        </div>
+
+        <div class="cols cols1">
+
+            <div class="imgbox">
+
+                <img src="../Animated web/img-animation/Human-animated.jpg" id="splash">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+<script>
+let typedEffect = new Typed(".multiText", {
+    strings: ["coder" , "web-jobs"],
+    loop: true,
+    typeSpeed: 100,
+    backSpeed: 80,
+    backDelay: 1500,
+})
+</script> 
+
+</body>
+</html>
